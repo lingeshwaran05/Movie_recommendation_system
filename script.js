@@ -3,7 +3,7 @@ let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
 
 //function to fetch data from api
-
+let key = "7f9a3b82";
 let getMovie = () => {
     let movieName = movieNameRef.value;
     let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
